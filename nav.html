@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Главная</title>
+</head>
+
+
+<style>
+    .wrapper a {
+        font-size: 30px;
+        text-transform: capitalize;
+    }
+
+    .wrapper button {
+        margin-bottom: 25px;
+        width: 300px;
+        height: 45px;
+    }
+</style>
+
+<body class="m-page">
+
+    <div class="wrapper" style="padding: 50px;">
+        <a href="index.html" style="display: block; margin-bottom: 20px;">
+            Главная
+        </a>
+        <a href="index2.html" style="display: block; margin-bottom: 20px;">
+            Главная (Технические работы)
+        </a>
+        <a href="index3.html" style="display: block; margin-bottom: 20px;">
+            Главная(Наличные)
+        </a>
+        <a href="login.html" style="display: block; margin-bottom: 20px;">
+            Вход
+        </a>
+        <a href="reg.html" style="display: block; margin-bottom: 20px;">
+            Регистрация
+        </a>
+        <a href="activate.html" style="display: block; margin-bottom: 20px;">
+            Активация аккаунта
+        </a>
+        <a href="pass-recovery.html" style="display: block; margin-bottom: 20px;">
+            Восстановление пароля
+        </a>
+        <a href="pass-recovery2.html" style="display: block; margin-bottom: 20px;">
+            Восстановление пароля 2
+        </a>
+        <a href="reviews.html" style="display: block; margin-bottom: 20px;">
+            Отзывы
+        </a>
+        <a href="partners.html" style="display: block; margin-bottom: 20px;">
+            Партнёрам
+        </a>
+        <a href="info.html" style="display: block; margin-bottom: 20px;">
+            AML и KYC
+        </a>
+        <a href="about.html" style="display: block; margin-bottom: 20px;">
+            О нас
+        </a>
+        <a href="rules.html" style="display: block; margin-bottom: 20px;">
+            Правила
+        </a>
+        <a href="faq.html" style="display: block; margin-bottom: 20px;">
+            FAQ
+        </a>
+        <a href="contacts.html" style="display: block; margin-bottom: 20px;">
+            Контакты
+        </a>
+        <a href="withdraw.html" style="display: block; margin-bottom: 20px;">
+            Обмен криптовалюты на наличные
+        </a>
+        <a href="withdraw.html" style="display: block; margin-bottom: 20px;">
+            Денежные переводы по всему миру без пересечения границ
+        </a>
+        <a href="echanges.html" style="display: block; margin-bottom: 20px;">
+            История обменов
+        </a>
+        <a href="echanges-empty.html" style="display: block; margin-bottom: 20px;">
+            Пустая история обменов
+        </a>
+        <a href="partners-program.html" style="display: block; margin-bottom: 20px;">
+            Партнёрская программа
+        </a>
+        <a href="partners-program2.html" style="display: block; margin-bottom: 20px;">
+            Партнёрская программа. Без таблицы
+        </a>
+        <a href="account.html" style="display: block; margin-bottom: 20px;">
+            Настройки аккаунта
+        </a>
+        <a href="cards2.html" style="display: block; margin-bottom: 20px;">
+            Карты
+        </a>
+        <a href="cards.html" style="display: block; margin-bottom: 20px;">
+            Карты. Без данных
+        </a>
+        <a href="404.html" style="display: block; margin-bottom: 20px;">
+            404
+        </a>
+        <button data-modal="withdrawModal" style="border: 2px solid #fff;margin-bottom: 20px; color: #fff">
+            Вывод партнёрского бонуса
+        </button>
+
+        <hr style="display: block; margin: 0 0 20px;">
+
+        <button data-modal="confirmModal" style="border: 2px solid #fff;margin-bottom: 20px; color: #fff">
+            Подтверждение данных
+        </button>
+        <a href="deal.html" style="display: block; margin-bottom: 20px;">
+            Сделка крипта-фиат. Оплата сделки
+        </a>
+        <a href="deal2.html" style="display: block; margin-bottom: 20px;">
+            Сделка крипта-фиат. Обработка платежа
+        </a>
+        <a href="deal3.html" style="display: block; margin-bottom: 20px;">
+            Сделка крипта-фиат. Перевод
+        </a>
+        <a href="deal4.html" style="display: block; margin-bottom: 20px;">
+            Сделка крипта-фиат. Перевод 2
+        </a>
+        <a href="deal-success.html" style="display: block; margin-bottom: 20px;">
+            Сделка крипта-фиат. Благодарность
+        </a>
+        <a href="deal-stopped.html" style="display: block; margin-bottom: 20px;">
+            Сделка крипта-фиат. Ошибка обмена
+        </a>
+        <a href="card-screen.html" style="display: block; margin-bottom: 20px;">
+            Фото карты
+        </a>
+        <a href="card-screen2.html" style="display: block; margin-bottom: 20px;">
+            Фото карты 3
+        </a>
+        <a href="card-screen3.html" style="display: block; margin-bottom: 20px;">
+            Фото карты 3
+        </a>
+
+
+        <hr style="display: block; margin: 0 0 20px;">
+        <button data-modal="confirmModal2" style="border: 2px solid #fff;margin-bottom: 20px; color: #fff">
+            Подтверждение данных 2
+        </button>
+        <a href="deal5.html" style="display: block; margin-bottom: 20px;">
+            Сделка фиат-крипта. Верификация
+        </a>
+        <button data-modal="verificationModal" style="border: 2px solid #fff;margin-bottom: 20px; color: #fff">
+            Верификация карты
+        </button>
+        <button data-modal="verificationModal2" style="border: 2px solid #fff;margin-bottom: 20px; color: #fff">
+            Верификация карты 2
+        </button>
+        <a href="deal6.html" style="display: block; margin-bottom: 20px;">
+            Сделка фиат-крипта. Карта
+        </a>
+        <a href="deal7.html" style="display: block; margin-bottom: 20px;">
+            Сделка фиат-крипта. Неудачная верификация
+        </a>
+        <a href="deal8.html" style="display: block; margin-bottom: 20px;">
+            Сделка фиат-крипта. Удачная верификация
+        </a>
+        <a href="deal9.html" style="display: block; margin-bottom: 20px;">
+            Сделка фиат-крипта. Выбор доступной карты
+        </a>
+        <a href="deal10.html" style="display: block; margin-bottom: 20px;">
+            Сделка фиат-крипта. Оплата сделки
+        </a>
+        <a href="deal11.html" style="display: block; margin-bottom: 20px;">
+            Сделка фиат-крипта. Оплата сделки
+        </a>
+        <a href="deal12.html" style="display: block; margin-bottom: 20px;">
+            Сделка фиат-крипта. Оплата сделки 2
+        </a>
+        <a href="deal13.html" style="display: block; margin-bottom: 20px;">
+            Сделка фиат-крипта. Обработка платежа
+        </a>
+        <a href="deal14.html" style="display: block; margin-bottom: 20px;">
+            Сделка фиат-крипта. Обработка платежа 2
+        </a>
+        <a href="deal15.html" style="display: block; margin-bottom: 20px;">
+            Сделка фиат-крипта. Перевод
+        </a>
+        <a href="deal-success2.html" style="display: block; margin-bottom: 20px;">
+            Сделка фиат-крипта. Благодарность
+        </a>
+    </div>
+
+
+
+
+
+
+
+
+    <!--  -->
+    <div id="copyAlert" class="copy-alert">
+        <div class="copy-alert__dialog">
+            <div class="info-alert info-alert--green">
+                <div class="info-alert__icon">
+                    <img src="img/copy2.svg" alt="">
+                </div>
+                <span class="text16">
+                Скопировано!
+            </span>
+            </div>
+        </div>
+    </div>
+
+    <div id="cardAlert" class="copy-alert">
+        <div class="_close-copy-alert copy-alert__bg modal-bg"></div>
+        <div class="copy-alert__dialog">
+            <div class="info-block__icon">
+                <img src="img/copy2.svg" alt="">
+            </div>
+            <div class="text32 medium-text">
+                Карта выбрана
+            </div>
+            <button class="_close-copy-alert copy-alert__close">
+                <img src="img/close.svg" alt="">
+            </button>
+        </div>
+    </div>
+
+
+    <div class="modal confirm-modal" id="confirmModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="h2 text-center">
+                Подтверждение данных сделки cm565446
+            </div>
+            <div class="confirm-modal__items grid">
+                <div class="confirm-modal__item">
+                    <div class="text16 gray-text">
+                        Мы переведём
+                    </div>
+                    <div class="text16 extra-black-text">
+                        8 752 RUB
+                    </div>
+                </div>
+                <div class="confirm-modal__item">
+                    <div class="text16 gray-text">
+                        Ваши реквизиты
+                    </div>
+                    <div class="text16 extra-black-text">
+                        4276 5500 5439 0185
+                    </div>
+                </div>
+            </div>
+            <div class="confirm-modal__nav">
+                <button class="confirm-modal__btn m-btn m-btn-primary">
+                    <span>Подтвердить данные</span>
+                </button>
+                <button class="deal-info__cancel _close-modal">
+                    Отменить сделку
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="modal confirm-modal" id="confirmModal2">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="h2 text-center">
+                Подтверждение данных сделки cm565446
+            </div>
+            <div class="confirm-modal__items grid">
+                <div class="confirm-modal__item">
+                    <div class="text16 gray-text">
+                        Мы переведём
+                    </div>
+                    <div class="text16 extra-black-text">
+                        100 USDT
+                    </div>
+                </div>
+                <div class="confirm-modal__item">
+                    <div class="text16 gray-text">
+                        Ваши реквизиты
+                    </div>
+                    <div class="text16 extra-black-text">
+                        1N4Qbzg6LSXUXyXu2MDuGfzxwMA7do8AyL
+                    </div>
+                </div>
+            </div>
+            <div class="confirm-modal__nav">
+                <button class="confirm-modal__btn m-btn m-btn-primary">
+                    <span>Подтвердить данные</span>
+                </button>
+                <button class="deal-info__cancel _close-modal">
+                    Отменить сделку
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="modal verification-modal" id="verificationModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="modal__top">
+                <div class="h2">
+                    Верификация карты
+                </div>
+                <button class="close-btn _close-modal">
+                    <img src="img/close.svg" alt="">
+                </button>
+            </div>
+
+            <div class="verification-deal">
+                <div class="text16 cadet-gray-text">
+                    Сделка: <span>cm565446</span> <br>
+            Сбербанк RUB <span>8 752 RUB</span> — Tether TRC20 (USDT) <span>100 USDT</span>
+                </div>
+            </div>
+
+            <form action="" class="verification-form">
+                <div class="text16 caps-text medium-text">
+                    Введите данные карты
+                </div>
+                <div class="verification-form__fields grid2 grid-mob">
+                    <div class="fg _error">
+                        <input type="text" placeholder="ФИО без сокращений">
+                        <label>ФИО владельца карты</label>
+                        <div class="fg__error">
+                            <div class="text16">
+                                Введите ФИО без сокращений
+                            </div>
+                            <button class="fg__close">
+                                <img src="img/close2.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="fg">
+                        <input class="_card-field" type="text" placeholder="____ ____ ____ ____">
+                        <label>Номер карты</label>
+                    </div>
+                </div>
+                <div class="m-check">
+                    <input type="checkbox">
+                    <label>
+                        <span>Запомнить карту для следующих сделок</span>
+                    </label>
+                </div>
+
+                <div class="card-verification _tabs-parent">
+                    <div class="text16 caps-text medium-text">
+                        Загрузите фото карты
+                    </div>
+                    <div class="card-verification__types">
+                        <div class="tab _tab _active" data-tab="_tab1">
+                            <span>Пластиковая карта</span>
+                        </div>
+                        <div class="tab _tab" data-tab="_tab2">
+                            <span>Виртуальная карта</span>
+                        </div>
+                    </div>
+                    <div class="tab-content _tab1 _active">
+                        <div class="card-verification__hint">
+                            <div class="text16 gray-text">
+                                Вы можете загрузить фото одним из двух способов:
+                            </div>
+                        </div>
+                        <div class="verification-ways">
+                            <div class="verification-way">
+                                <div class="verification-way__img">
+                                    <img src="img/verification-way.webp" alt="">
+                                </div>
+                                <div class="verification-way__content">
+                                    <div class="text16">
+                                        <span class="extra-black-text">Первый способ.</span> Загрузите фото лицевой стороны карты на фоне сделки. Можно закрыть все данные карты, кроме номера.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="verification-way">
+                                <div class="verification-way__img">
+                                    <img src="img/verification-way2.webp" alt="">
+                                </div>
+                                <div class="verification-way__content">
+                                    <div class="text16">
+                                        <span class="extra-black-text">Второй способ.</span> Загрузите фото лицевой стороны карты на фоне надписи «Покупка крипты по сделке cm565446». Можно закрыть все данные карты, кроме номера.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content _tab2">
+                        <div class="card-verification__hint">
+                            <div class="text16 gray-text">
+                                Вы можете загрузить фото одним из двух способов:
+                            </div>
+                        </div>
+                        <div class="verification-ways">
+                            <div class="verification-way">
+                                <div class="verification-way__img">
+                                    <img src="img/verification-way.webp" alt="">
+                                </div>
+                                <div class="verification-way__content">
+                                    <div class="text16">
+                                        <span class="medium-text">Первый способ.</span> Загрузите фото виртуальной карты в мобильном приложении или на сайте банка на фоне сделки. Можно закрыть все данные карты, кроме номера.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="verification-way">
+                                <div class="verification-way__img">
+                                    <img src="img/verification-way2.webp" alt="">
+                                </div>
+                                <div class="verification-way__content">
+                                    <div class="text16">
+                                        <span class="medium-text">Второй способ.</span> Загрузите фото виртуальной карты в мобильном приложении на фоне надписи «Покупка крипты по сделке cm565446». Можно закрыть все данные карты, кроме номера.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card-verification__hint">
+                        <div class="text16 gray-text">
+                            Вы также можете загрузить фото карты с компьютера или смартфона:
+                        </div>
+                    </div>
+
+                    <div class="card-upload">
+                        <div class="file-input">
+                            <input type="file">
+                            <div class="file-input__inner">
+                                <img src="img/download.svg" alt="">
+                                <div class="text17 medium-text">
+                                    Загрузить фото
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-upload__qr">
+                            <img src="img/qr2.webp" alt="">
+                            <div class="text">
+                                <p>
+                                    <span class="medium-text">
+                                Загрузить фото карты с телефона.
+                            </span>
+                                    Отсканируйте QR-код или
+                                    <button class="primary-text">отправьте ссылку</button> на страницу прикрепления фотографии на свой e-mail.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-verification__nav">
+                        <button disabled class="m-btn m-btn-primary">
+                            <span>Отправить на модерацию</span>
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+
+    <div class="modal verification-modal" id="verificationModal2">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="modal__top">
+                <div class="h2">
+                    Верификация карты
+                </div>
+                <button class="close-btn _close-modal">
+                    <img src="img/close.svg" alt="">
+                </button>
+            </div>
+
+            <div class="verification-deal">
+                <div class="text16 cadet-gray-text">
+                    Сделка: <span>cm565446</span> <br>
+            Сбербанк RUB <span>8 752 RUB</span> — Tether TRC20 (USDT) <span>100 USDT</span>
+                </div>
+            </div>
+
+            <form action="" class="verification-form">
+                <div class="text16 caps-text medium-text">
+                    Введите данные карты
+                </div>
+                <div class="verification-form__fields grid2 grid-mob">
+                    <div class="fg _error">
+                        <input type="text" placeholder="ФИО без сокращений">
+                        <label>ФИО владельца карты</label>
+                        <div class="fg__error">
+                            <div class="text16">
+                                Введите ФИО без сокращений
+                            </div>
+                            <button class="fg__close">
+                                <img src="img/close2.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="fg">
+                        <input class="_card-field" type="text" placeholder="____ ____ ____ ____">
+                        <label>Номер карты</label>
+                    </div>
+                </div>
+                <div class="m-check">
+                    <input type="checkbox">
+                    <label>
+                        <span>Запомнить карту для следующих сделок</span>
+                    </label>
+                </div>
+
+                <div class="card-verification _tabs-parent">
+                    <div class="text16 caps-text medium-text">
+                        Загрузите фото карты
+                    </div>
+                    <div class="card-verification__types">
+                        <div class="tab _tab _active" data-tab="_tab1">
+                            <span>Пластиковая карта</span>
+                        </div>
+                        <div class="tab _tab" data-tab="_tab2">
+                            <span>Виртуальная карта</span>
+                        </div>
+                    </div>
+                    <div class="tab-content _tab1 _active">
+                        <div class="card-verification__hint">
+                            <div class="text16 gray-text">
+                                Вы можете загрузить фото одним из двух способов:
+                            </div>
+                        </div>
+                        <div class="verification-ways">
+                            <div class="verification-way">
+                                <div class="verification-way__img">
+                                    <img src="img/verification-way.webp" alt="">
+                                </div>
+                                <div class="verification-way__content">
+                                    <div class="text16">
+                                        <span class="extra-black-text">Первый способ.</span> Загрузите фото лицевой стороны карты на фоне сделки. Можно закрыть все данные карты, кроме номера.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="verification-way">
+                                <div class="verification-way__img">
+                                    <img src="img/verification-way2.webp" alt="">
+                                </div>
+                                <div class="verification-way__content">
+                                    <div class="text16">
+                                        <span class="extra-black-text">Второй способ.</span> Загрузите фото лицевой стороны карты на фоне надписи «Покупка крипты по сделке cm565446». Можно закрыть все данные карты, кроме номера.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content _tab2">
+                        <div class="card-verification__hint">
+                            <div class="text16 gray-text">
+                                Вы можете загрузить фото одним из двух способов:
+                            </div>
+                        </div>
+                        <div class="verification-ways">
+                            <div class="verification-way">
+                                <div class="verification-way__img">
+                                    <img src="img/verification-way.webp" alt="">
+                                </div>
+                                <div class="verification-way__content">
+                                    <div class="text16">
+                                        <span class="medium-text">Первый способ.</span> Загрузите фото виртуальной карты в мобильном приложении или на сайте банка на фоне сделки. Можно закрыть все данные карты, кроме номера.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="verification-way">
+                                <div class="verification-way__img">
+                                    <img src="img/verification-way2.webp" alt="">
+                                </div>
+                                <div class="verification-way__content">
+                                    <div class="text16">
+                                        <span class="medium-text">Второй способ.</span> Загрузите фото виртуальной карты в мобильном приложении на фоне надписи «Покупка крипты по сделке cm565446». Можно закрыть все данные карты, кроме номера.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card-verification__hint">
+                        <div class="text16 gray-text">
+                            Вы также можете загрузить фото карты с компьютера или смартфона:
+                        </div>
+                    </div>
+
+
+                    <div class="upload-success">
+                        <img src="img/success.svg" alt="">
+                        <span class="text16">Фото карты успешно загружено</span>
+                    </div>
+
+                    <div class="card-verification__nav">
+                        <button class="m-btn m-btn-primary">
+                            <span>Отправить на модерацию</span>
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+
+    <div class="modal withdraw-modal" id="withdrawModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="h2 text-center">
+                Вывод партнёрского бонуса
+            </div>
+            <button class="close-btn _close-modal">
+                <img src="img/close.svg" alt="">
+            </button>
+            <form action="" class="withdraw-form">
+                <div class="withdraw-form__fields">
+                    <div class="fg fg--buttons">
+                        <input data-all-sum="0.00025" type="number" placeholder="Введите сумму" step="0.0000001">
+                        <label>Сумма</label>
+                        <button type="button" class="withdraw-form__all-sum m-btn m-btn-gray-outline">
+                            <span>Все средства</span>
+                        </button>
+                    </div>
+                    <div class="fg">
+                        <input type="text" placeholder="Введите реквизиты">
+                        <label>Реквизиты</label>
+                    </div>
+                </div>
+                <div class="withdraw-form__hint">
+                    <div class="text16">
+                        <span class="caps-text extra-black-text">Внимание!</span> После создания заявки кошелек сохранится в системе и следующие выплаты будут возможны только на этот кошелек. Изменить кошелек можно через техподдержку.
+                    </div>
+                </div>
+                <div class="withdraw-form__nav">
+                    <button class="m-btn m-btn-primary">
+                        <span>Вывести средства</span>
+                    </button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+    <div class="modal exchange-modal" id="exchangeModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <button class="close-btn _close-modal">
+                <img src="img/close.svg" alt="">
+            </button>
+            <div class="text18 medium-text text-center">
+                <span class="cadet-gray-text regular-text">Наличные RUB</span> 95 095.3 RUB <span class="cadet-gray-text regular-text">— Tether TRC20 (USDT)</span> 100 USDT
+            </div>
+            <div class="exchange-modal__hint">
+                <div class="text18">
+                    <span>Внимание!</span> <br>
+                Точная сумма к получению будет определена после передачи наличных
+                </div>
+            </div>
+            <form action="" class="exchange-form">
+                <div class="exchange-form__fields grid2 grid-mob">
+                    <div class="fg">
+                        <input type="text" placeholder="Ваш E-mail">
+                        <label>E-mail</label>
+                    </div>
+                    <div class="fg">
+                        <input type="text" placeholder="Ваши контакты">
+                        <label>Телефон или @Telegram</label>
+                    </div>
+                    <div class="city-field">
+                        <div class="city-field__toggle fg">
+                            <input class="city-field__field" readonly value="Мельбурн" type="text" placeholder="">
+                            <label>Город</label>
+                            <img src="img/au.svg" alt="" class="city-field__flag">
+                            <span class="city-field__arrow">
+            <img src="img/arrow.svg" alt="">
+        </span>
+                        </div>
+                        <div class="city-dropdown">
+                            <div class="city-dropdown__inner">
+                                <div class="city-dropdown__items">
+                                    <div data-flag="img/id.svg" data-city="Бали" class="city-option">
+                                        <div class="city-option__col">
+                                            <img class="city-option__icon" src="img/id.svg" alt="">
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__title">
+                                                <span class="text18">Бали</span>
+                                            </div>
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__desc text18 cadet-gray-text">
+                                                Индонезия
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div data-flag="img/au.svg" data-city="Брисбен" class="city-option">
+                                        <div class="city-option__col">
+                                            <img class="city-option__icon" src="img/au.svg" alt="">
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__title">
+                                                <span class="text18">Брисбен</span>
+                                            </div>
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__desc text18 cadet-gray-text">
+                                                Австралия
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div data-flag="img/uae.svg" data-city="Дубай" class="city-option">
+                                        <div class="city-option__col">
+                                            <img class="city-option__icon" src="img/uae.svg" alt="">
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__title">
+                                                <span class="text18">Дубай</span>
+                                            </div>
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__desc text18 cadet-gray-text">
+                                                ОАЭ
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div data-flag="img/usa.svg" data-city="Нью-Йорк" class="city-option">
+                                        <div class="city-option__col">
+                                            <img class="city-option__icon" src="img/usa.svg" alt="">
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__title">
+                                                <span class="text18">Нью-Йорк</span>
+                                            </div>
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__desc text18 cadet-gray-text">
+                                                США
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div data-flag="img/id.svg" data-city="Бали" class="city-option">
+                                        <div class="city-option__col">
+                                            <img class="city-option__icon" src="img/id.svg" alt="">
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__title">
+                                                <span class="text18">Бали</span>
+                                            </div>
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__desc text18 cadet-gray-text">
+                                                Индонезия
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div data-flag="img/au.svg" data-city="Брисбен" class="city-option">
+                                        <div class="city-option__col">
+                                            <img class="city-option__icon" src="img/au.svg" alt="">
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__title">
+                                                <span class="text18">Брисбен</span>
+                                            </div>
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__desc text18 cadet-gray-text">
+                                                Австралия
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div data-flag="img/uae.svg" data-city="Дубай" class="city-option">
+                                        <div class="city-option__col">
+                                            <img class="city-option__icon" src="img/uae.svg" alt="">
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__title">
+                                                <span class="text18">Дубай</span>
+                                            </div>
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__desc text18 cadet-gray-text">
+                                                ОАЭ
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div data-flag="img/usa.svg" data-city="Нью-Йорк" class="city-option">
+                                        <div class="city-option__col">
+                                            <img class="city-option__icon" src="img/usa.svg" alt="">
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__title">
+                                                <span class="text18">Нью-Йорк</span>
+                                            </div>
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__desc text18 cadet-gray-text">
+                                                США
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div data-flag="img/id.svg" data-city="Бали" class="city-option">
+                                        <div class="city-option__col">
+                                            <img class="city-option__icon" src="img/id.svg" alt="">
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__title">
+                                                <span class="text18">Бали</span>
+                                            </div>
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__desc text18 cadet-gray-text">
+                                                Индонезия
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div data-flag="img/au.svg" data-city="Брисбен" class="city-option">
+                                        <div class="city-option__col">
+                                            <img class="city-option__icon" src="img/au.svg" alt="">
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__title">
+                                                <span class="text18">Брисбен</span>
+                                            </div>
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__desc text18 cadet-gray-text">
+                                                Австралия
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div data-flag="img/uae.svg" data-city="Дубай" class="city-option">
+                                        <div class="city-option__col">
+                                            <img class="city-option__icon" src="img/uae.svg" alt="">
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__title">
+                                                <span class="text18">Дубай</span>
+                                            </div>
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__desc text18 cadet-gray-text">
+                                                ОАЭ
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div data-flag="img/usa.svg" data-city="Нью-Йорк" class="city-option">
+                                        <div class="city-option__col">
+                                            <img class="city-option__icon" src="img/usa.svg" alt="">
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__title">
+                                                <span class="text18">Нью-Йорк</span>
+                                            </div>
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__desc text18 cadet-gray-text">
+                                                США
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="fg">
+                        <input type="text" placeholder="Ваши реквизиты">
+                        <label>Кошелёк для пополнения</label>
+                    </div>
+                </div>
+                <div class="exchange-form__nav">
+                    <button class="m-btn m-btn--big m-btn-primary">
+                        <span>Создать заявку</span>
+                    </button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+    <div class="modal exchange-modal" id="exchangeModal2">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <button class="close-btn _close-modal">
+                <img src="img/close.svg" alt="">
+            </button>
+            <div class="text18 medium-text text-center">
+                <span class="cadet-gray-text regular-text">Tether TRC20 (USDT)</span> 100 USDT <span class="cadet-gray-text regular-text">— Наличные RUB</span> 95 095.3 RUB
+            </div>
+            <div class="exchange-modal__hint">
+                <div class="text18">
+                    <span>Внимание!</span> <br>
+                Точная сумма к получению будет определена по факту полного подтверждения транзакции (количество подтверждений может варьироваться в зависимости от типа монеты, подробности у оператора). Мы проводим проверку входящих транзакций в соответствии с принципами AML (противодействие отмыванию денег)
+                </div>
+            </div>
+            <form action="" class="exchange-form">
+                <div class="exchange-form__fields grid2 grid-mob">
+                    <div class="fg">
+                        <input type="text" placeholder="Ваш E-mail">
+                        <label>E-mail</label>
+                    </div>
+                    <div class="fg">
+                        <input type="text" placeholder="Ваши контакты">
+                        <label>Телефон или @Telegram</label>
+                    </div>
+                    <div class="city-field">
+                        <div class="city-field__toggle fg">
+                            <input class="city-field__field" readonly value="Мельбурн" type="text" placeholder="">
+                            <label>Город</label>
+                            <img src="img/au.svg" alt="" class="city-field__flag">
+                            <span class="city-field__arrow">
+            <img src="img/arrow.svg" alt="">
+        </span>
+                        </div>
+                        <div class="city-dropdown">
+                            <div class="city-dropdown__inner">
+                                <div class="city-dropdown__items">
+                                    <div data-flag="img/id.svg" data-city="Бали" class="city-option">
+                                        <div class="city-option__col">
+                                            <img class="city-option__icon" src="img/id.svg" alt="">
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__title">
+                                                <span class="text18">Бали</span>
+                                            </div>
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__desc text18 cadet-gray-text">
+                                                Индонезия
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div data-flag="img/au.svg" data-city="Брисбен" class="city-option">
+                                        <div class="city-option__col">
+                                            <img class="city-option__icon" src="img/au.svg" alt="">
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__title">
+                                                <span class="text18">Брисбен</span>
+                                            </div>
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__desc text18 cadet-gray-text">
+                                                Австралия
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div data-flag="img/uae.svg" data-city="Дубай" class="city-option">
+                                        <div class="city-option__col">
+                                            <img class="city-option__icon" src="img/uae.svg" alt="">
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__title">
+                                                <span class="text18">Дубай</span>
+                                            </div>
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__desc text18 cadet-gray-text">
+                                                ОАЭ
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div data-flag="img/usa.svg" data-city="Нью-Йорк" class="city-option">
+                                        <div class="city-option__col">
+                                            <img class="city-option__icon" src="img/usa.svg" alt="">
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__title">
+                                                <span class="text18">Нью-Йорк</span>
+                                            </div>
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__desc text18 cadet-gray-text">
+                                                США
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div data-flag="img/id.svg" data-city="Бали" class="city-option">
+                                        <div class="city-option__col">
+                                            <img class="city-option__icon" src="img/id.svg" alt="">
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__title">
+                                                <span class="text18">Бали</span>
+                                            </div>
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__desc text18 cadet-gray-text">
+                                                Индонезия
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div data-flag="img/au.svg" data-city="Брисбен" class="city-option">
+                                        <div class="city-option__col">
+                                            <img class="city-option__icon" src="img/au.svg" alt="">
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__title">
+                                                <span class="text18">Брисбен</span>
+                                            </div>
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__desc text18 cadet-gray-text">
+                                                Австралия
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div data-flag="img/uae.svg" data-city="Дубай" class="city-option">
+                                        <div class="city-option__col">
+                                            <img class="city-option__icon" src="img/uae.svg" alt="">
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__title">
+                                                <span class="text18">Дубай</span>
+                                            </div>
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__desc text18 cadet-gray-text">
+                                                ОАЭ
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div data-flag="img/usa.svg" data-city="Нью-Йорк" class="city-option">
+                                        <div class="city-option__col">
+                                            <img class="city-option__icon" src="img/usa.svg" alt="">
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__title">
+                                                <span class="text18">Нью-Йорк</span>
+                                            </div>
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__desc text18 cadet-gray-text">
+                                                США
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div data-flag="img/id.svg" data-city="Бали" class="city-option">
+                                        <div class="city-option__col">
+                                            <img class="city-option__icon" src="img/id.svg" alt="">
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__title">
+                                                <span class="text18">Бали</span>
+                                            </div>
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__desc text18 cadet-gray-text">
+                                                Индонезия
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div data-flag="img/au.svg" data-city="Брисбен" class="city-option">
+                                        <div class="city-option__col">
+                                            <img class="city-option__icon" src="img/au.svg" alt="">
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__title">
+                                                <span class="text18">Брисбен</span>
+                                            </div>
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__desc text18 cadet-gray-text">
+                                                Австралия
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div data-flag="img/uae.svg" data-city="Дубай" class="city-option">
+                                        <div class="city-option__col">
+                                            <img class="city-option__icon" src="img/uae.svg" alt="">
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__title">
+                                                <span class="text18">Дубай</span>
+                                            </div>
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__desc text18 cadet-gray-text">
+                                                ОАЭ
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div data-flag="img/usa.svg" data-city="Нью-Йорк" class="city-option">
+                                        <div class="city-option__col">
+                                            <img class="city-option__icon" src="img/usa.svg" alt="">
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__title">
+                                                <span class="text18">Нью-Йорк</span>
+                                            </div>
+                                        </div>
+                                        <div class="city-option__col">
+                                            <div class="city-option__desc text18 cadet-gray-text">
+                                                США
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="fg">
+                        <input type="text" placeholder="Ваши реквизиты">
+                        <label>Кошелёк для пополнения</label>
+                    </div>
+                </div>
+                <div class="exchange-form__nav">
+                    <button class="m-btn m-btn--big m-btn-primary">
+                        <span>Создать заявку</span>
+                    </button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>
